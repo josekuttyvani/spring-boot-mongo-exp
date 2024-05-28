@@ -1,0 +1,57 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "mongoexp",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "redis",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1716920081863,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "Njg1ZmQ4MzAxZGQwMDBmMmY1ODQ1OGFjMWM2NjBhMjFjMDU3M2E1YzlhZjU1MWZmNjdjOTM1YjdkZjgxMzliYjcxOTVkMWIxZDJkZDliYjA1MjNlY2M4ODc1ZTYzMjIyMmUyNTZjZDE2NTNkNjA2MjBjZDllY2YxZjVlMWE4NGE=",
+    "languages": ["en"],
+    "messageBroker": false,
+    "microfrontend": false,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-es-entity-reindexer",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "1.0.1"
+      }
+    ],
+    "packageName": "com.exp.mongoexp",
+    "pages": [],
+    "prodDatabaseType": "mongodb",
+    "reactive": false,
+    "searchEngine": "elasticsearch",
+    "serverPort": "8080",
+    "serverSideOptions": ["searchEngine:elasticsearch"],
+    "serviceDiscoveryType": "no",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
